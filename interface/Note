@@ -1,0 +1,23 @@
+In Dart
+
+Normal class act as interface.
+
+To make a class acts as interface use implements
+
+Example
+
+class Remote{
+
+}
+
+class SamsungRemote implements Remote{
+
+}
+
+If we use class as interface then we have to override all the property and methods of that class.
+
+You can implements multiple class
+
+class Student implements Person,Captain{
+
+}
